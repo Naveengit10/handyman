@@ -1,0 +1,222 @@
+@media (max-width:600px){
+ .pad{
+    padding: 10px;
+    background-size: cover;
+    margin-top: -1px;
+    background-repeat: no-repeat;
+ }
+ .section2 h2{
+    font-size: 2.7rem;
+    font-weight :500 ;
+ }
+
+ 
+ .text {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 1.6;
+    }
+
+    #book{
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+    .serviceboxs{
+        display: grid;
+        margin-left: 10px;
+        margin-right: 10px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .sbox{
+        text-align: -webkit-center;
+    }
+    .section4{
+        margin: 5px;
+        margin-top: 0px;
+    }
+
+    .idiv{
+        width: 100%;
+        height: 400px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .section1{
+        background-size: cover;
+        background-position:71% 50% ;
+        height: 550px;
+    }
+    #h2{
+        font-size: 2rem;
+    line-height: 1;
+    font-weight: 600;
+    }
+    #btn{
+        margin-top: 20px !important;
+    }
+    .box1{
+        height: 300px;
+        width: 88%;
+        left: 0px;
+        top: 70px;
+
+    }
+
+    .box2{
+        height: 275px;
+        width: 83%;
+        left: 44px;
+        padding: 10px;
+        height: 300px;
+    }
+    .cdiv{
+        width: 100%;
+        padding: 10px;
+    }
+    .con2{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .repair{
+        margin: 0px;
+    }
+    #repairh2{
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    #p{
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding-top: 50px;
+        line-height: 1.6;
+        text-align: center;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .repairbtn{
+        margin-top: 50px;
+    }
+    .free{
+        margin: 0px;
+    }
+    .section6{
+        background-size: cover;
+    }
+    nav div img{
+        content: url(img/logo-mini.png);
+    }
+    .free h1 {
+        font-size: 1.85rem;
+        text-align: center;
+    }
+    .free p{
+        font-weight: 400;
+        text-align: justify;
+        line-height: 1.2;
+        font-size: 1.25rem;
+    }
+    .free p br{
+        display: none;
+    }
+    .repaircol{
+        grid-template-columns: 1fr;
+        margin: 0 20px;
+    }
+    #h4{
+        text-align: center;
+    }
+    #repty p{
+        padding-top: 20px;
+        text-align: justify;
+    }
+    .booking{
+        margin-left: 0px;
+        grid-template-columns: 1fr;
+    }
+    .etbook{
+        padding: 40px 20px;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+    }
+    .etbook p{
+        text-align: justify;
+        font-size: 1rem;
+        padding: 20px 20px 17px 5px;
+    }
+    .link{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10px;
+    }
+    .link img{
+        width: 148px !important;
+        height: 50px !important;
+    }
+.section7{
+    padding: 0px;
+}
+#ct p{
+    text-align: center;
+}
+
+.section5{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+.blur-man{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 30%;
+
+}
+.contact{
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0px;
+}
+
+}
+@media (max-width:600px){
+    
+    .bar{
+        display: block!important;
+     }
+     nav{
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+     }
+     #div-bar{
+        position: absolute;
+        top: 26px;
+        right: 20px;
+     }
+     ul li{
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+    ul{
+        display: none;
+    }
+}
+@media (max-width:600px)and (min-width:700px){
+    .box1{
+        left: 20px !important;
+        
+    }
+}
+@media (max-width:777px){
+    .contact{
+        grid-template-columns: 1fr!important;
+    }
+    #ct p {
+        text-align: center;}
+
+}
